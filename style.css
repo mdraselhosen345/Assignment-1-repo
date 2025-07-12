@@ -149,7 +149,7 @@ button:hover{
 }
 .content-reviewer{
      padding: 24px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px 4px rgba(0, 0, 0, 0.1);
      border-radius: 14px;
      
 }
@@ -206,86 +206,92 @@ button:hover{
     border-radius: 50%;
 }
 
-/* container-reviewer-end */
-/* container start  */
-.section-better{
-    margin: 137px 149px 92px 151px;
+
+/* container-better start */
+ .section-better{
     text-align: center;
-    gap: 100px;
-    line-height: 1.2;
-}
-.container-better{
-    text-align: center;
-}
-.content-heading{
+    margin: 137px 151px 10px 151px;
+
+ }
+ .content-heading{
+    padding: 71px 312px 0 312px;
     font-size: 50px;
-    padding: 71px 0px 20px 0px;
-    font-weight: bold;
-    color: #000000;
-}
-.pragaph-title{
-    color:#333;
-}
-.button4{
+    color: #252432;
+ }
+ .pragaph-title{
+    color:#383838;
+    padding-top: 20px;
+ }
+ .button4{
     margin-top: 20px;
-}
-.banner-photo{
-    text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 20px;
-    border-radius: 48px;
-}
+
+ }
+ .banner-photo{
+    padding-top: 20px;
+    border-radius: 68px;
+ }
+
 /* container start  */
+
 .section-information{
     display: flex;
-    justify-content: space-between;
-    margin: 92px 150px 14px 150px;
-    gap:200px;
-
+    margin: 92px 150px 20px 150px; 
+    justify-content:space-between;
+    gap: 100px;
 }
-.header-title{
-    font-size: 57px;
+.title-touch{
+    font-size: 89px;
     font-weight: bold;
-    text-align: left;
-   
+    padding-top:200px;
+    padding-bottom: 200px;
 }
-.content-email{
-    padding: 71px 0 71px 190px;
+.title-emails{
+    padding-top: 71px;
+    padding-bottom: 71px;
+    text-align: right;
+
 }
-.email{
-    width: 497px;
+.email, .name{
     height: 70px;
+    width: 397px;
     border-radius: 10px;
-    border:none;
-    color: #333;
-    
-
-
-
-}
-.name{
-     width: 497px;
-    height: 70px;
-    border-radius: 10px;
-    border:none;
-    color: #333;
-
+    font-size: 16px;
+    border: 0.5px solid #777676;
 }
 .message{
-     width: 497px;
     height: 140px;
+    width: 397px;
     border-radius: 10px;
-    border:none;
-    color: #333;
+    border: 0.5px solid #777676;
+    font-size: 16px;
+}
+label{
+    margin-right: 355px;
+}
+.messages{
+    margin-right: 345px;
+    
 }
 .button5{
-     width: 497px;
-    height: 60px;
+    width: 397px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
 /* main section end*/
 /* footer section start */
-.footers-section{
+ .footers-section{
     width: 100%;
     height: 428px;
     background-color: #8b8b8b;
@@ -332,5 +338,5 @@ ul a:hover{
 }
 span{
     color:rgb(143, 70, 1);
-}
+} 
 /* footer section end */
